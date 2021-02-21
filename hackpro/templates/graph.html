@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<body background="/static/images/ftp.jpeg">
+<!--<div class="dropdown">-->
+<!--  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--    Setupwise graph details:-->
+<!--  </button>-->
+<!--<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+<!--    <a class="dropdown-item" href="{{'/graphs/oracle'}}">Oracle Database</a>-->
+<!--    <a class="dropdown-item" href="{{'/soon'}}">Embedded Postgres Database</a>-->
+<!--    <a class="dropdown-item" href="{{'/soon'}}">External-Postgres Database</a>-->
+<!--    <a class="dropdown-item" href="{{'/soon'}}">MSSQL Database</a>-->
+<!--    <a class="dropdown-item" href="{{'/soon'}}">Shared Content Database</a>-->
+<!--    <a class="dropdown-item" href="{{'/soon'}}">Satellite Database</a>-->
+<!--  </div>-->
+<ol>
+<li><h2><a href="{{'/graphs/oracle'}}" >  Oracle Database  </a></h2></li>
+<li><h2><a href="#" >  External-Postgres Database  </a></h2></li>
+<li><h2><a href="#" >  Embedded Postgres Database  </a></h2></li>
+<li><h2><a href="#" >  MSSQL Database  </a></h2></li>
+<li><h2><a href="#" >  Shared Content Database  </a></h2></li>
+<li><h2><a href="#" >  Satellite Database  </a></h2></li>
+</ol>
+</body>
+{% endblock %}
